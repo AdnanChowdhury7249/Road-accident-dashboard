@@ -11,7 +11,7 @@ function TotalAccidentsCard() {
   }, [])
 
   return (
-    <div className="border border-gray-400 rounded-md h-40 w-60 p-4 shadow-sm font-bold bg-blue-100 text-gray-500">Total Accidents <h1 className="font-bold py-6 text-2xl text-black">{count}</h1></div>
+    <div className="border border-gray-400 rounded-md h-40 w-80 p-4 shadow-sm font-bold bg-blue-100 text-gray-500">Total Accidents <h1 className="font-bold py-6 text-2xl text-black">{count}</h1></div>
   )
 
 }

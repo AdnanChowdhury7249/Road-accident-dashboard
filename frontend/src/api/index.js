@@ -5,4 +5,5 @@ const API = axios.create({
 })
 
 export const getTotalAccidents = () => API.get(`api/total_accidents`);
+export const getMostCommonWeatherConditions = () => API.get(`api/weather`)
 

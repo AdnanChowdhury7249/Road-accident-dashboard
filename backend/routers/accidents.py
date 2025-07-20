@@ -22,13 +22,13 @@ async def total_accidents():
 @router.get("/api/weather")
 async def likely_Weather_conditions():
     weather = await most_common_weather_conditions()
-    return {"most frequnt weather conditions": weather}
+    return {"MostCommonWeather": weather}
 
 
 @router.get("/api/fatal_accidents")
 async def fatal_accidents():
     total = await number_of_fatal_accidents()
-    return {"total fatal accidents": total}
+    return {"totalFatalAccidents": total}
 
 
 @router.get("/api/accident_by_day")

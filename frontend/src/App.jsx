@@ -1,5 +1,6 @@
 import './index.css'
 import TotalAccidentCard from "./components/totalAccidentCard"
+import MostCommonWeatherCard from './components/mostCommonWeatherCard'
 
 function App() {
 
@@ -7,6 +8,7 @@ function App() {
   return (
     <>
       <TotalAccidentCard />
+      <MostCommonWeatherCard />
     </>
   )
 }
