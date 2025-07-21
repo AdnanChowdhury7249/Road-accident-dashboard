@@ -3,6 +3,7 @@ import TotalAccidentCard from "./components/totalAccidentCard"
 import MostCommonWeatherCard from './components/mostCommonWeatherCard'
 import TotalNumberOfFatalAccidents from './components/numOfFatalAccidents'
 import Header from './page/Header'
+import BarChartComponent from './components/barChart.jsx'
 
 function App() {
 
@@ -10,6 +11,7 @@ function App() {
   return (
     <>
       <Header />
+      <BarChartComponent />
     </>
   )
 }
