@@ -55,8 +55,8 @@ async def get_road_conditions():
     rows = await database.fetch_all(query=query)
     return [
         {
-            "Road Surface Conditions": row["road_surface_conditions"],
-            "total": row["total"],
+            "name": row["road_surface_conditions"],
+            "value": row["total"],
         }
         for row in rows
     ]
