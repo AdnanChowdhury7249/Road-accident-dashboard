@@ -1,9 +1,7 @@
 import './index.css'
-import TotalAccidentCard from "./components/totalAccidentCard"
-import MostCommonWeatherCard from './components/mostCommonWeatherCard'
-import TotalNumberOfFatalAccidents from './components/numOfFatalAccidents'
 import Header from './page/Header'
 import BarChartComponent from './components/barChart.jsx'
+import LineChartComponent from './components/lineChart.jsx'
 
 function App() {
 
@@ -12,6 +10,7 @@ function App() {
     <>
       <Header />
       <BarChartComponent />
+      <LineChartComponent />
     </>
   )
 }
