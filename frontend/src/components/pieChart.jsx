@@ -16,11 +16,7 @@ function PieChartComponent() {
 
   useEffect(() => {
     getRoadConditions().then((res) => {
-      const formatted = res.data.map(item => ({
-        name: item["Road Surface Conditions"],
-        value: item.total
-      }));
-      setData(formatted);
+      setData(res.data);
     });
   }, []);
 

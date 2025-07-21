@@ -3,6 +3,7 @@ import Header from './page/Header'
 import BarChartComponent from './components/barChart.jsx'
 import LineChartComponent from './components/lineChart.jsx'
 import PieChartComponent from './components/pieChart.jsx'
+import HeatMapComponent from "./components/HeatMapComponent";
 
 function App() {
   return (
@@ -17,6 +18,7 @@ function App() {
       {/* Pie chart below */}
       <div className="px-4 py-6">
         <PieChartComponent />
+        <HeatMapComponent />
       </div>
     </>
   )
