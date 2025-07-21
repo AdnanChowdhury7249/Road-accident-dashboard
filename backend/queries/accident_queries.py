@@ -53,4 +53,10 @@ async def get_heatmap_by_bounds(south: float, north: float, west: float, east: f
 async def get_road_conditions():
     query = "SELECT road_surface_conditions, COUNT(*) as total from accidents GROUP BY road_surface_conditions"
     rows = await database.fetch_all(query=query)
-    return {row["road_surface_conditions"]: row["total"] for row in rows}
+    return [
+        {
+            "Road Surface Conditions": row["road_surface_conditions"],
+            "total": row["total"],
+        }
+        for row in rows
+    ]
