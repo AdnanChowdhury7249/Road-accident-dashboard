@@ -36,6 +36,9 @@ function BarChartComponent() {
 
   return (
     <div className="w-200 h-96 px-4 py-6">
+      <h2 className="text-xl font-bold text-gray-700 mb-4 text-center">
+        Total Number of Accidents by Day
+      </h2>
       <ResponsiveContainer width="100%" height="100%">
         <BarChart
           data={data}
