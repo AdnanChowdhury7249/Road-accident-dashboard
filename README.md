@@ -1,25 +1,29 @@
 # Road-accident-dashboard
 
-🚗 Road Accident Analytics Dashboard
+ Road Accident Analytics Dashboard
 
 An interactive dashboard built with React, FastAPI, and PostgreSQL to visualise and analyse UK road accident data.
-📊 Features
+ Features
 
-    📈 Bar chart showing total accidents by day of the week
+     Bar chart showing total accidents by day of the week
 
-    📉 Line chart showing monthly accident trends
+     Line chart showing monthly accident trends
 
-    🧊 Pie chart breaking down road surface conditions
+     Pie chart breaking down road surface conditions
 
-    🔥 Heatmap displaying accident density across the UK
+     Heatmap displaying accident density across the UK
 
-    ⚡️ Fast API performance with async SQL queries
+     Fast API performance with async SQL queries
 
-🧰 Tech Stack
-Frontend	Backend	Database
-React + Vite	FastAPI (Python)	PostgreSQL
-📦 Installation
+# Tech Stack
+
+Frontend	
+React + Vite	
+
 Backend (FastAPI)
+PostgreSQL
+
+# Installation
 
 cd backend
 python -m venv .venv
@@ -33,7 +37,7 @@ cd frontend
 npm install
 npm run dev
 
-📁 Project Structure
+ Project Structure
 
 road-accident-dashboard/
 ├── backend/
@@ -49,23 +53,9 @@ road-accident-dashboard/
 │   └── public/
 └── README.md
 
-🖼️ Screenshots
-Bar Chart	Pie Chart	Heatmap
-	
-	
-🌍 Heatmap Boundaries
 
-The heatmap focuses on the UK:
 
-    South: 49.9
-
-    North: 60
-
-    West: -8.6
-
-    East: 1.8
-
-📌 Future Improvements
+Future Improvements
 
     Filter by date range
 
