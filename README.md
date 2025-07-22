@@ -39,24 +39,6 @@ cd frontend
 npm install
 npm run dev
 
- Project Structure
-
-road-accident-dashboard/
-├── backend/
-│   ├── main.py
-│   ├── db/
-│   ├── routers/
-│   └── queries/
-├── frontend/
-│   ├── src/
-│   │   ├── components/
-│   │   ├── api/
-│   │   └── context/
-│   └── public/
-└── README.md
-
-
-
 Future Improvements
 
     Filter by date range
